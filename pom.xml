@@ -60,6 +60,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <maven.build.timestamp.format>yyyyMMdd-HHmm</maven.build.timestamp.format>
 
@@ -483,12 +484,15 @@
                     <version>${maven-javadoc.version}</version>
                     <configuration>
                         <quiet>true</quiet>
+                        <offline>true</offline>
                         <encoding>UTF-8</encoding>
                         <docencoding>UTF-8</docencoding>
                         <notimestamp>true</notimestamp>
                         <serialwarn>false</serialwarn>
                         <doclint>none</doclint>
                         <show>public</show>
+                        <detectOfflineLinks>false</detectOfflineLinks>
+                        <detectJavaApiLink>false</detectJavaApiLink>
                         <detectLinks>false</detectLinks>
                         <validateLinks>false</validateLinks>
                         <archive>
