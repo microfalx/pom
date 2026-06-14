@@ -103,7 +103,7 @@
         <codehaus.versions.version>2.21.0</codehaus.versions.version>
         <codehause.buildnumber.version>3.3.0</codehause.buildnumber.version>
         <!-- Do not go above 0.8.X for now -->
-        <sonatype.central-publishing>0.8.0</sonatype.central-publishing>
+        <sonatype.central-publishing>0.10.0</sonatype.central-publishing>
         <jreleaser.version>1.24.0</jreleaser.version>
         <talos.version>1.0.5</talos.version>
 
