@@ -25,7 +25,7 @@
 
     <groupId>net.microfalx</groupId>
     <artifactId>pom</artifactId>
-    <version>1.0.19</version>
+    <version>1.0.20</version>
     <packaging>pom</packaging>
 
     <name>Parent POM</name>
@@ -86,26 +86,26 @@
         <failsafe.reuseForks>false</failsafe.reuseForks>
 
         <maven-release.version>3.3.1</maven-release.version>
-        <maven-deploy.version>3.1.4</maven-deploy.version>
+        <maven-deploy.version>3.2.0</maven-deploy.version>
         <maven-site.version>3.22.0</maven-site.version>
-        <maven-surefire.version>3.5.6</maven-surefire.version>
-        <maven-failsafe.version>3.5.6</maven-failsafe.version>
+        <maven-surefire.version>3.6.0</maven-surefire.version>
+        <maven-failsafe.version>3.6.0</maven-failsafe.version>
         <maven-enforcer.version>3.6.3</maven-enforcer.version>
-        <maven-compiler.version>3.15.0</maven-compiler.version>
+        <maven-compiler.version>3.16.0</maven-compiler.version>
         <maven-javadoc.version>3.12.0</maven-javadoc.version>
         <maven-source.version>3.4.0</maven-source.version>
         <maven-gpg.version>3.2.8</maven-gpg.version>
-        <maven-jar.version>3.5.0</maven-jar.version>
+        <maven-jar.version>3.5.1</maven-jar.version>
         <maven-scm.version>2.2.1</maven-scm.version>
         <maven-project-info.version>3.9.0</maven-project-info.version>
 
         <jacoco.version>0.8.15</jacoco.version>
-        <spotbugs.version>4.10.2.0</spotbugs.version>
-        <codehaus.versions.version>2.21.0</codehaus.versions.version>
-        <codehause.buildnumber.version>3.3.0</codehause.buildnumber.version>
+        <spotbugs.version>4.10.3.0</spotbugs.version>
+        <codehaus.versions.version>2.22.0</codehaus.versions.version>
+        <codehause.buildnumber.version>3.3.1</codehause.buildnumber.version>
         <!-- Do not go above 0.8.X for now -->
-        <sonatype.central-publishing>0.10.0</sonatype.central-publishing>
-        <jreleaser.version>1.24.0</jreleaser.version>
+        <sonatype.central-publishing>0.8.0</sonatype.central-publishing>
+        <jreleaser.version>1.26.0</jreleaser.version>
         <talos.version>1.0.5</talos.version>
 
         <serenity.version>5.3.10</serenity.version>
