@@ -494,6 +494,7 @@
                         <detectJavaApiLink>false</detectJavaApiLink>
                         <detectLinks>false</detectLinks>
                         <validateLinks>false</validateLinks>
+                        <outputDirectory>${project.build.directory}/javadoc-reports</outputDirectory>
                         <archive>
                             <manifest>
                                 <addDefaultImplementationEntries>true</addDefaultImplementationEntries>
